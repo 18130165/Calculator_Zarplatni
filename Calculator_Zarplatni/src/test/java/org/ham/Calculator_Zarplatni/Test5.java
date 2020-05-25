@@ -16,6 +16,6 @@ public class Test5 {
 		RTV.button.doClick(); //нажимаем кнопку "Выполнить расчет"
 		String result = CalculGUI.input5.getText(); 
 		
-		assertEquals("18000.0",result); // сравнение полученного результата и ожидаемого значения
+		assertEquals("20000.0",result); // сравнение полученного результата и ожидаемого значения
 	}
 }
