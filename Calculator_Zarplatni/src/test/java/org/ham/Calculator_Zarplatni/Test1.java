@@ -17,7 +17,7 @@ public class Test1 {
 		RTV.button.doClick();//нажимаем кнопку "Выполнить расчет" 
 		String result = CalculGUI.input5.getText(); //переменная result содержит в себе получившееся значенение зарплаты 
 		
-		assertEquals("35000.0",result); // сравнение полученного результата и ожидаемого значения
+		assertEquals("350.0",result); // сравнение полученного результата и ожидаемого значения
 	}
 
 }
