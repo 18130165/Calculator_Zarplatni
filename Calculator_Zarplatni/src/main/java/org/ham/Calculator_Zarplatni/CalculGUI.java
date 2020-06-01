@@ -13,11 +13,11 @@ public class CalculGUI extends JFrame {
 	public static JTextField input5 = new JTextField("",4); //объект тектовое поле
 
 	
-	private JLabel label1 = new JLabel("Количество отработанных дней:"); //объект текстовая строка
+	private JLabel label1 = new JLabel("Отработанные дни:"); //объект текстовая строка
 	private JLabel label2 = new JLabel("Оклад, руб.:"); //объект текстовая строка
 	private JLabel label3 = new JLabel("Премия, руб.:"); //объект текстовая строка
-	private JLabel label4 = new JLabel("Количество рабочих дней в месяце:"); //объект текстовая строка
-	private JLabel label5 = new JLabel("Заработная плата сотрудника составит, руб.:"); //объект текстовая строка
+	private JLabel label4 = new JLabel("Количество рабочих дней:"); //объект текстовая строка
+	private JLabel label5 = new JLabel("ЗАРАБОТНАЯ ПЛАТА:"); //объект текстовая строка
 	
 	public static boolean check = true;
 	
@@ -27,11 +27,38 @@ public class CalculGUI extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
 		Container container = this.getContentPane();
-		container.setLayout(new GridLayout(3,2,2,2));
+		container.setLayout(null);
 		input5.disable(); //
 
 		
 		//Добавление элементов окна на панель
+		input1.setSize(190,50);
+		input2.setSize(190,50);
+		input3.setSize(190,50);
+		input4.setSize(190,50);
+		input5.setSize(190,50);
+		
+		input1.setLocation(200, 5);
+		input2.setLocation(590, 5);
+		input3.setLocation(200, 60);
+		input4.setLocation(590, 60);
+		input5.setLocation(200, 110);
+		
+		label1.setSize(190,50);
+		label2.setSize(190,50);
+		label3.setSize(190,50);
+		label4.setSize(190,50);
+		label5.setSize(190,50);
+		
+		label1.setLocation(10, 5);
+		label2.setLocation(400, 5);
+		label3.setLocation(10, 60);
+		label4.setLocation(400, 60);
+		label5.setLocation(10, 110);
+		
+		button.setSize(190,50);
+		button.setLocation(400, 110);
+		
 		container.add(label1);
 		container.add(input1);
 		
