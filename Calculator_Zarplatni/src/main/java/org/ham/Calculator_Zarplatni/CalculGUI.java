@@ -38,17 +38,17 @@ public class CalculGUI extends JFrame {
 		input4.setSize(190,50);
 		input5.setSize(190,50);
 		
-		input1.setLocation(200, 5);
-		input2.setLocation(590, 5);
-		input3.setLocation(200, 60);
-		input4.setLocation(590, 60);
-		input5.setLocation(200, 110);
-		
 		label1.setSize(190,50);
 		label2.setSize(190,50);
 		label3.setSize(190,50);
 		label4.setSize(190,50);
 		label5.setSize(190,50);
+		
+		input1.setLocation(200, 5);
+		input2.setLocation(590, 5);
+		input3.setLocation(200, 60);
+		input4.setLocation(590, 60);
+		input5.setLocation(200, 110);
 		
 		label1.setLocation(10, 5);
 		label2.setLocation(400, 5);
