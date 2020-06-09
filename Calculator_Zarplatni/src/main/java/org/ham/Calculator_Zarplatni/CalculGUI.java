@@ -28,8 +28,10 @@ public class CalculGUI extends JFrame {
 		this.setResizable(false);
 		Container container = this.getContentPane();
 		container.setLayout(null);
-		input5.disable(); //
-
+		input5.disable(); 
+		
+		this.setUndecorated( true ); 
+		this.getRootPane().setWindowDecorationStyle( 2);
 		
 		//Добавление элементов окна на панель
 		input1.setSize(190,50);
