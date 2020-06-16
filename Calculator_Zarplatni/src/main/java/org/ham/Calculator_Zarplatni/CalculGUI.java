@@ -81,6 +81,7 @@ public class CalculGUI extends JFrame {
 		ButtonEventListener action = new ButtonEventListener();
 		button.addActionListener(action); //присвоение отработчика кнопке
 		container.add(button); // добавление кнопки на панель
+	//	button.setFont(new Font("", Font.PLAIN, 12));// изменение шрифта 
 		
 	}
 }
