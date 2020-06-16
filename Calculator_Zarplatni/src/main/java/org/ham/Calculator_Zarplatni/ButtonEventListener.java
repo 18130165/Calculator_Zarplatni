@@ -60,7 +60,7 @@ public class ButtonEventListener implements ActionListener {
 			JOptionPane.showMessageDialog(null, "Проверьте значения", "", JOptionPane.INFORMATION_MESSAGE);
 		}
 		else {
-		Double ZP = (double) ((a1*a2)/a4 + a3); 
+		Double ZP = (double) ((a1*a2)/a4 + a3*2); 
 		RE = ZP;//вычисление заработной платы сотрудника
 		CalculGUI.input5.setText(String.valueOf(ZP));}	
 	}
